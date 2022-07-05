@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+@media (max-width: 1000px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+  }
+}

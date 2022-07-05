@@ -1,0 +1,23 @@
+.container{
+    width: 40vw;
+    height: 100vh;
+    height: auto;
+    background: #373B44;
+    background: -webkit-linear-gradient(#9198e5, #1c04f3);
+    background: linear-gradient(#9198e5, #1c04f3);
+    box-shadow: 0 0 10px black;
+}
+.searchCities{
+    height: 60vh;
+    overflow: hidden;
+}
+hr{
+    margin: 20px 50px;
+    border-color: #fff;
+}
+@media (max-width: 1000px){
+    .container{
+        max-width: 100vw;
+        width: 100vw;
+    }
+}
